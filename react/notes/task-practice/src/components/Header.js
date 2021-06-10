@@ -3,22 +3,18 @@ import Button from './Button'
 
 // Or take in const Header = (props) and refer to things with props.title
 
-const Header = ({ title }) => {
-
-    const onClick = (e) => {
-        console.log(e)
-    }
+const Header = ({ title, onAdd, showAdd }) => {
 
     return (
         <header className='header'>
             <h1>{title}</h1>
-            <Button color='green' text='Hello' onClick={onClick} />
+            <Button color='green' text={showAdd ? 'Collapse' : 'Add'} onClick={onAdd} />
         </header>
     )
 }
 
 Header.defaultProps = {
-    title: 'Default Hello',
+    title: 'Task React Practice',
 }
 
 Header.propTypes = {
