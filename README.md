@@ -1,7 +1,7 @@
 # practice
 
 ## Purpose
-This is a repo where I practice different things in an effort to learn. Not everything is intended to be fully fleshed out.
+This is a repository where I practice different things to learn. Not everything is intended to be fully fleshed out.
 
 ## What's here so far...
 So far, I have started some practice with React and design.
