@@ -8,10 +8,10 @@ img {
 
 #list-color {
     background-color: white;
-    color: teal;
+    color: rgb(150, 150, 150);
     width: 95px;
     border-radius: 50px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border: solid;
     margin: auto;
 }
@@ -23,7 +23,7 @@ img {
 }
 
 .descr {
-    background-color: rgb(131, 102, 9);
+    background-color: rgb(67, 157, 173);
     text-align: center;
     width: 500px;
     margin: auto;
